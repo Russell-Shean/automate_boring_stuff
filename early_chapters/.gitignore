@@ -1,0 +1,15 @@
+# ignore pycache
+__pycache__/
+
+
+# ignore jupyter notebooks data
+.ipynb_checkpoints/
+
+# Ignore HTML files
+*.html
+
+# ignore .cxv files
+*.csv
+
+# ignore large data files
+*.geojson
