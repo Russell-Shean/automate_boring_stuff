@@ -45,7 +45,10 @@ def collatz(numbah = ""):
 	print(f"You reached 1 in {iterations} iterations! Yay!")
 
 
+try:
+	collatz(hjkhj)
 
-collatz()
+except NameError:
+	collatz()
 
 
